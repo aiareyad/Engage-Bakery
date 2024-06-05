@@ -1,0 +1,649 @@
+/* home */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.width100 {
+
+    width: 100%;
+}
+
+.m-btm20 {
+
+    margin-bottom: 20px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.container {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    padding-top: 20px;
+}
+
+.home .nav-logo img {
+    height: 48px;
+}
+
+.nav-links {
+
+    width: 40%;
+    float: right;
+    padding-top: 10px;
+}
+
+.nav-links ul li {
+
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.nav-links ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19;
+}
+
+.nav-logo {
+
+    width: 60%;
+    float: left;
+}
+
+
+.first-fsize {
+
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.last-fsize {
+
+    margin-bottom: 50px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.header-fsize {
+
+    font-size: 60px;
+    padding-top: 0px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 76px;
+}
+
+.home {
+
+    background-image: url(../imgs/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-text {
+
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.button1 {
+
+    padding: 15px 25px;
+    border: 0;
+    background-color: #8E7754;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.home .button1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.button2 {
+
+    padding: 15px 25px;
+    border: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.home .button2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.button3 {
+
+    background-color: transparent;
+    border: 0px;
+}
+
+
+
+/* about */
+
+.text-padding {
+
+    padding-bottom: 40px;
+}
+
+
+
+.width {
+    width: 550px
+}
+
+.about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-info h2 {
+
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 32px;
+
+}
+
+.about-info p {
+
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+
+.about-info ul li {
+
+    line-height: 3;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.about .about-info {
+
+
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px
+}
+
+.about .about-img {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about .about-info ul li {
+
+    list-style: none;
+    padding: 10px;
+}
+
+.about .about-info ul li img {
+    width: 40px;
+    vertical-align: middle;
+    border: #DEDEDE solid 2px;
+    border-radius: 50%;
+}
+
+.about .about-info ul li span {
+
+    vertical-align: middle;
+}
+
+
+
+/* Location */
+
+.location {
+
+    background-color: #F8F8F8;
+    padding: 100px;
+}
+
+
+
+.location-info {
+
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.location-info h2 {
+
+    line-height: 4;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.location-info p {
+
+    line-height: 2;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #888888;
+}
+
+.location-img {
+
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.width2 {
+
+    width: 550px;
+}
+
+
+/* Baking */
+
+.baking-imgs {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.baking-title {
+
+    text-align: center;
+    line-height: 3;
+}
+
+.baking-title h2 {
+
+    padding-top: 50px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.baking-title p{
+
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color:#888888;
+}
+
+.baking-info {
+    width: 30%;
+    float: left;
+    padding-top: 40px;
+    padding: 20px;
+
+}
+
+.baking-info h3 {
+
+    text-align: center;
+    line-height: 4;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.baking-info p {
+
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color:#888888;
+}
+
+
+.clear-fix {
+
+    clear: both;
+}
+
+
+
+/* contact */
+
+.contact {
+
+    background-color: #F8F8F8;
+    padding: 70px;
+}
+
+.contact-info {
+
+    width: 48%;
+    float: left;
+    padding-right: 20px;
+}
+
+.contact-info h2 {
+
+    line-height: 3;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.contact-info p {
+
+    line-height: 1.5;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.contact-info span {
+
+    line-height: 4;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.contact-map {
+
+    width: 48%;
+    float: left;
+}
+
+.contact-info ul li {
+
+    list-style: none;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:17px;
+}
+
+.contact-info ul li img {
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 55px;
+}
+
+.contact-info ul li p {
+
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+
+
+/* Footer top */
+
+.footer-top {
+
+    background-color: #403D38;
+    padding: 50px;
+
+}
+
+.footer-top .about-us{
+    
+    width: 25%;
+    float:left;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+
+}
+
+.footer-top .why {
+    width: 25%;
+    float: left;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.footer-top .about-us h4 {
+
+    line-height: 3;
+    color: white;
+    margin-bottom: 40px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+.footer-top .about-us p{
+
+    line-height: 1.5;
+    color: #888888;
+    padding-bottom: 20px;
+    vertical-align: top;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer-top .about-us span{
+
+    line-height: 1.5;
+    color: #888888;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px;
+}
+
+
+.footer-top .why ul li img{
+
+    width:15px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.footer-top .why h4{
+
+    color: white;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+}
+
+.footer-top .why ul li p{
+
+    vertical-align: middle;
+    display: inline-block;
+    border-bottom: #4A4742 solid 1px;
+    line-height: 3.6;
+    color: #888888;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px;
+}
+
+
+.footer-top ul li{
+
+    list-style: none;
+}
+
+/* ---------------------- */
+
+.footer-top .opening-hours{
+
+    width: 25%;
+    float:left;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px;
+
+}
+
+.footer-top .opening-hours ul li img{
+
+    width:15px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.footer-top .opening-hours h4{
+
+    color: white;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+}
+
+.footer-top .opening-hours ul li p{
+
+    vertical-align: middle;
+    display: inline-block;
+    border-bottom: #4A4742 solid 1px;
+    line-height: 3.6;
+    color: #888888;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px;
+}
+
+
+.footer-top ul li{
+
+    list-style: none;
+}
+
+/* ----------------------------- */
+.footer-top .contact-details{
+
+    width: 25%;
+    float:left;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+
+}
+
+.footer-top .contact-details ul li img{
+
+    width:15px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.footer-top .contact-details h4{
+
+    color: white;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+}
+
+.footer-top .contact-details ul li p{
+
+    vertical-align: middle;
+    display: inline-block;
+    border-bottom: #4A4742 solid 1px;
+    line-height: 3.6;
+    color: #888888;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px;
+
+}
+
+
+.footer-top ul li{
+
+    list-style: none;
+}
+/* ------------------------------------ */
+/* Footer bottom */
+
+.footer-bottom {
+
+    background-color:#353330;
+    
+}
+
+.footer-bottom img{
+
+    display: block;
+    margin: auto;
+    padding: 50px;
+    background-color: transparent;
+}
+
+.footer-bottom p{
+
+    text-align: center;
+    color: #888888;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px;    
+}
+
+.icon-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons{
+
+    padding: 0 !important;
+    margin: 40px 10px !important;
+}
